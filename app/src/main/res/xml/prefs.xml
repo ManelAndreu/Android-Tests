@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:icon="@android:drawable/ic_dialog_email"
+        android:key="opt1"
+        android:title="Correu electrònic"
+    android:summary="Direcció de correu electrònic"
+    android:dialogTitle="Introdueix el teu mail"/>
+
+    <ListPreference
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/t_colors"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:entryValues="@array/codi_t_colors"
+        android:key="opt2"
+        android:summary="Color de la font"
+        android:title="Color del text" />
+
+    <ListPreference
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/bg_colors"
+        android:entryValues="@array/codi_bg_colors"
+        android:key="opt3"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:summary="Color del fons"
+        android:title="Color del fons" />
+
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="t_colors">
+        <item >Blanc</item>
+        <item >Negre</item>
+        <item >Blau</item>
+    </string-array>
+    <string-array name="codi_t_colors">
+        <item >#ffffff</item>
+        <item >#000000</item>
+        <item >#0000ff</item>
+    </string-array>
+    <string-array name="bg_colors">
+        <item >Roig</item>
+        <item >Groc</item>
+        <item >Verd</item>
+    </string-array>
+    <string-array name="codi_bg_colors">
+        <item >#ff0000</item>
+        <item >#ffea00</item>
+        <item >#00ff00</item>
+    </string-array>
+</resources>
